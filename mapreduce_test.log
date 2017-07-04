@@ -1,0 +1,10 @@
+WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+WARN main com.jolbox.bonecp.BoneCP - Thread close connection monitoring has been enabled. This will negatively impact on your performance. Only enable this option for debugging purposes!
+WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+ERROR main org.apache.spark.SparkContext - Error initializing SparkContext.
+org.apache.spark.SparkException: A master URL must be set in your configuration
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:401)
+	at org.apache.spark.streaming.StreamingContext$.createNewSparkContext(StreamingContext.scala:874)
+	at org.apache.spark.streaming.StreamingContext.<init>(StreamingContext.scala:81)
+	at com.bf.dt.wireless.streaming.WirelessLogAnalysis$.main(WirelessLogAnalysis.scala:22)
+	at com.bf.dt.wireless.streaming.WirelessLogAnalysis.main(WirelessLogAnalysis.scala)

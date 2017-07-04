@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="wireless_realtime_rec:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/wireless_realtime_rec_jar</output-path>
+    <root id="archive" name="wireless_realtime_rec.jar">
+      <element id="module-output" name="wireless_realtime_rec" />
+      <element id="library" level="project" name="Maven: com.jolbox:bonecp:0.8.0.RELEASE" />
+      <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.31" />
+    </root>
+  </artifact>
+</component>

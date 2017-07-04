@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="encodeSpark" />
+        <module name="wireless_ctr" />
+        <module name="wireless_ctr_aid" />
+        <module name="wireless_ctr_cid" />
+        <module name="wireless_realtime_rec" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="encodeSpark" target="1.5" />
+      <module name="wireless_ctr" target="1.5" />
+      <module name="wireless_ctr_aid" target="1.5" />
+      <module name="wireless_ctr_cid" target="1.5" />
+      <module name="wireless_realtime_rec" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
